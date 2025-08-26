@@ -1,0 +1,161 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text_tn": "3andek bac ?",
+      "field": "high_school_diploma",
+      "keywords": {
+        "oui": 10, "ay": 10, "ih": 10, "eyy": 10, "yes": 10, "na3am": 10, "ey": 10,
+        "3andi": 10, "5edemtou": 10, "khdhitou": 10, "khdhit": 10, "finich": 10, "sna 3ali": 10,
+        "non": 0, "la": 0, "le": 0, "no": 0, "ma andich": 0, "ma najemch": 0,
+        "ma3andich": 0, "machi 3andi": 0, "mazal": 0, "makhdhouch": 0,
+        "le 3andi": 0, "ma3andich le bac": 0, "le 5edemtou": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 2,
+      "text_tn": "Jibt 10 wla akther fil bac ?",
+      "field": "bac_score_10_plus",
+      "keywords": {
+        "oui": 10, "ya": 10, "ih": 10, "balehi": 10, "bechik": 10, "ey": 10,
+        "jibt 16": 10, "16.5": 10, "17": 10, "14.5": 10, "15": 10, "faw9 15": 10,
+        "9dim": 10, "barcha": 10, "7abeeb": 10,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "10.5": 0, "9.8": 0, "11": 0,
+        "le 9dim": 0, "le 10.5": 0, "le 9.8": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 3,
+      "text_tn": "Tnajjem t9abel conditions mta3 programme ?",
+      "field": "meets_entry_requirements",
+      "keywords": {
+        "oui": 10, "ey": 10, "ih": 10, "ay": 10, "of course": 10, "balehi": 10,
+        "tajm3ou": 10, "yemchi": 10, "yekmilou": 10,
+        "menich 3arif": 5, "pas sûr": 5, "shwaya": 5, "mazelt": 5, "3ala rasse": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "jamais": 0, "ma t9belch": 0,
+        "le tajm3ou": 0, "le yemchi": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 4,
+      "text_tn": "3andek test anglais (IELTS, TOEFL) ?",
+      "field": "english_qualification",
+      "keywords": {
+        "oui": 10, "ey": 10, "ih": 10, "ay": 10, "najem": 10, "3andi": 10,
+        "fluent": 10, "b2": 10, "c1": 10, "level 7": 10,
+        "m7ajjez": 5, "booking": 5, "shwaya": 5, "soon": 5, "ba3d chwaya": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma andich": 0, "ma3andich": 0,
+        "le m7ajjez": 0, "le 3andi": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 5,
+      "text_tn": "Les etudes eli 3mlthom andhom 3ala9a bel programme ?",
+      "field": "academic_background_related",
+      "keywords": {
+        "oui": 10, "ey": 10, "ay": 10, "ih": 10, "3ala9a": 10, "w9fou": 10,
+        "shwaya": 5, "partiellement": 5, "mazelt": 5, "moch w9fou": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma t3amalch": 0,
+        "le w9fou": 0, "le moch w9fou": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 6,
+      "text_tn": "3andek hadaf w projet wadh7 bch t9ra barra ?",
+      "field": "clear_goal",
+      "keywords": {
+        "oui": 10, "ay": 10, "ih": 10, "ey": 10, "bechik": 10, "3andi projet": 10,
+        "n7eb": 10, "najem": 10, "bch n9ra": 10, "wadh7": 10,
+        "makch 3arif": 5, "pas sûr": 5, "encore": 5, "n7eb nchouf": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma 3andich": 0,
+        "le 3andi projet": 0, "le wadh7": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 7,
+      "text_tn": "Tnawi tbda t9ra 9rib ?",
+      "field": "reasonable_timeline",
+      "keywords": {
+        "oui": 10, "ay": 10, "ih": 10, "ey": 10, "9rib": 10, "soon": 10,
+        "ghodwa": 10, "ba3d chwaya": 10, "fi ness sa3a": 10,
+        "makch 3arif": 5, "pas sûr": 5, "mazelt": 5, "n7eb nchouf": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma najemch": 0,
+        "le 9rib": 0, "le ghodwa": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 8,
+      "text_tn": "3aref Malaisie w ikhtaritha enty ?",
+      "field": "chose_malaysia_intentionally",
+      "keywords": {
+        "oui": 10, "ey": 10, "ih": 10, "ay": 10, "3arefha": 10, "w9fouha": 10,
+        "bch n9ra houni": 10, "n7ebha": 10, "mawjouda": 10,
+        "menich 3arif": 5, "pas sûr": 5, "mach 3arif": 5, "n7eb nchouf": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma 3andich": 0,
+        "le 3arefha": 0, "le w9fouha": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 9,
+      "text_tn": "Bdit fi démarches (IELTS, traduction, etc.) ?",
+      "field": "application_steps_taken",
+      "keywords": {
+        "oui": 10, "ey": 10, "ih": 10, "ay": 10, "bdit": 10, "najem": 10,
+        "ba3d": 5, "partiellement": 5, "shwaya": 5, "ba3d chwaya": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma3andich": 0, "mazelt": 0,
+        "le bdit": 0, "le ba3d chwaya": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 10,
+      "text_tn": "7keyt m3a 3ayltik 3la mawthou3 ?",
+      "field": "family_discussed",
+      "keywords": {
+        "oui w y7ebou": 10, "y7ebou": 10, "balehi": 10, "ey": 10, "7keyet": 10,
+        "3andi support": 10, "7keyet m3ahom": 10, "w7idhom": 10,
+        "y7ebou shwaya": 5, "makch 3arif": 5, "pas sûr": 5, "n7eb nchouf": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma 7keytech": 0, "makalmethomch": 0,
+        "le 7keyet": 0, "le ma 7keytech": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 11,
+      "text_tn": "Tnajjem tkaffel masrouf el etudes ?",
+      "field": "can_afford",
+      "keywords": {
+        "oui": 10, "ya": 10, "ih": 10, "balehi": 10, "bechik": 10,
+        "3andi flous": 10, "tajm3ou": 10, "yemchi": 10,
+        "makch 3arif": 5, "partiellement": 5, "shwaya": 5, "mazelt": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma andich": 0, "ma3andich": 0,
+        "le 3andi flous": 0, "le yemchi": 0
+      },
+      "default_score": 5
+    },
+    {
+      "id": 12,
+      "text_tn": "Tnajjem tkhales bel Flywire ?",
+      "field": "can_pay_flywire",
+      "keywords": {
+        "oui": 10, "ey": 10, "ih": 10, "yes": 10, "bien sur": 10, "kol": 10, "ay faza": 10, "najem": 10,
+        "visa w7edha": 5, "visa bark": 5, "ghir visa": 5, "partiellement": 5, "3ala rasse": 5,
+        "non": 0, "la": 0, "le": 0, "mch": 0, "ma najemch": 0, "jamais": 0, "ma3andich": 0,
+        "le visa w7edha": 0, "le ma najemch": 0
+      },
+      "default_score": 5
+    }
+  ],
+  "qualification_threshold": 60,
+  "greeting_tn": "Salam ! Ana chatbot RaGlobal 👋 n7eb n3awnek t3abi questionnaire bch n3arfou kifeh tnajem t9ra fi Malaisie.",
+  "final_qualified_tn": "✅ Mabrouk ! Score mteek behi, l'équipe t3ana bch tetssel bik b sur3a.",
+  "final_not_qualified_tn": "🙏 Merci 3la waqtik ! Na7na bch nraj3ou m3ak ken ykoun fama forsa okhra."
+}
